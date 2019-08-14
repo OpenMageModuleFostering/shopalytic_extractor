@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>shopalytic_extractor</name>
+    <version>1.1.2</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/bsd-license.php">BSD License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Shopalytic turns shopping cart data into advanced analytics and insights for small and medium sized e-commerce merchants.</summary>
+    <description>Shopalytic turns shopping cart data into advanced analytics and insights for small and medium sized e-commerce merchants. We eliminate the frustrations of determining what data to collect, which metrics are important to measure, and how to analyze the results. Shopalytic collects the most relevant data and automatically generates pre-defined reports and insights around topics like: sales, customer behavior, discounting, merchandising, marketing, and more. Our insights are written in plain English so they are easy to read, understand, and take action on.</description>
+    <notes>Removed beta tag</notes>
+    <authors><author><name>Shopalytic</name><user>Shopalytic</user><email>contact@shopalytic.com</email></author></authors>
+    <date>2014-03-17</date>
+    <time>18:54:03</time>
+    <contents><target name="magecommunity"><dir name="Shopalytic"><dir name="Extractor"><dir name="Helper"><file name="Data.php" hash="1b0758800134ec4ef2afd2836492f96d"/></dir><dir name="Model"><file name="Csv.php" hash="00bdcb996f22523636fd77634387514f"/><file name="Exporter.php" hash="620eb212c9c7723fa364ab995f399243"/><file name="ExporterBase.php" hash="93fb745bb1cfbf85c03d7f70db1f835c"/><file name=".Exporter.php.swp" hash="072dcd6442fc19d416cd2011daf89b28"/><file name=".ExporterBase.php.swp" hash="a20ff621a27bbf7ab26f64f8dbf53b9e"/></dir><dir name="controllers"><file name="ExtractController.php" hash="f0c7127c9d9b79191617a0ddf4d74e73"/><file name=".ExtractController.php.swp" hash="f842dbac0da60aaceceb6218facdf6b3"/></dir><dir name="etc"><file name="config.xml" hash="4648ce195ed40cce8628b677a44ad9d8"/><file name="system.xml" hash="d0002cdbb26bf2c4a653bab293adb6cd"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Shopalytic_extractor>
+            <version>1.0.6</version>
+        </Shopalytic_extractor>
+    </modules>
+    <global>
+        <helpers>
+            <shopalytic_extractor>
+                <class>Shopalytic_extractor_Helper</class>
+            </shopalytic_extractor>
+        </helpers>
+        <models>
+            <shopalytic_extractor>
+                <class>Shopalytic_extractor_Model</class>
+            </shopalytic_extractor>
+        </models>
+    </global>
+    <default>
+        <shopalytic_extractor>
+            <configure>
+                <enabled>1</enabled>
+                <token />
+                <debug>0</debug>
+            </configure>
+        </shopalytic_extractor>
+    </default>
+    <frontend>
+        <routers>
+            <extractor>
+                <use>standard</use>
+                <args>
+                    <module>Shopalytic_Extractor</module>
+                    <frontName>shopalytic</frontName>
+                </args>
+            </extractor>
+        </routers>
+    </frontend>
+        <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <shopalytic_extractor translate="title" module="shopalytic_extractor">
+                                            <title>Shopalytic Admin</title>
+                                        </shopalytic_extractor>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+</config>
