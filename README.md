@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Shopalytic turns shopping cart data into advanced analytics and insights for small and medium sized e-commerce merchants.

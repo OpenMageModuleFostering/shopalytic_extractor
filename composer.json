@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/shopalytic_extractor",
+    "name": "openmage-module-fostering\/shopalytic_extractor",
     "type": "magento-module",
     "license": "BSD-License",
     "homepage": "",
