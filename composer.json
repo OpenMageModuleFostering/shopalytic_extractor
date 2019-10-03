@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/shopalytic_extractor",
+    "name": "OpenMageModuleFostering\/shopalytic_extractor",
     "type": "magento-module",
     "license": "BSD-License",
     "homepage": "",
     "description": "Shopalytic turns shopping cart data into advanced analytics and insights for small and medium sized e-commerce merchants.",
     "authors": [
-    {
-        "name": "Shopalytic",
-        "email": "contact@shopalytic.com"
-    }
-],
+        {
+            "name": "Shopalytic",
+            "email": "contact@shopalytic.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
